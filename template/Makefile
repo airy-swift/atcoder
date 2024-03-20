@@ -1,27 +1,30 @@
 
+GPP=g++ -std=c++2a
+OUT=-o out
+
 a:
-	g++-11 -o out A.cpp
+	${GPP} ${OUT} A.cpp
 	./out
 b:
-	g++ -o out B.cpp
+	${GPP} ${OUT} B.cpp
 	./out
 c:
-	g++ -o out C.cpp
+	${GPP} ${OUT} C.cpp
 	./out
 d:
-	g++ -o out D.cpp
+	${GPP} ${OUT} D.cpp
 	./out
 e:
-	g++ -o out E.cpp
+	${GPP} ${OUT} E.cpp
 	./out
 f:
-	g++ -o out F.cpp
+	${GPP} ${OUT} F.cpp
 	./out
 g:
-	g++ -o out G.cpp
+	${GPP} ${OUT} G.cpp
 	./out
 t:
-	g++ -o out template.cpp
+	${GPP} ${OUT} template.cpp
 	./out
 
 clean:
