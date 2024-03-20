@@ -1,0 +1,7 @@
+# ninja log v5
+7	1400	1710924121939046156	CMakeFiles/atcoder.dir/template/A.cpp.o	bb6fcb8f7154f482
+8	302	1710924080888871431	atcoder	ad60dbb1c86d344e
+6	651	1710923983491401419	CMakeFiles/atcoder.dir/main.cpp.o	c93bc3dbff5cf6f2
+0	89	1710924983092392573	build.ninja	9d3efe648822f17c
+0	106	1710924983092392573	build.ninja	9d3efe648822f17c
+6	732	1710924983849252786	CMakeFiles/atcoder.dir/template/template.cpp.o	638b329aa8462fbb
