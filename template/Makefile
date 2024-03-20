@@ -17,6 +17,9 @@ e:
 f:
 	g++ -o out F.cpp
 	./out
+g:
+	g++ -o out G.cpp
+	./out
 t:
 	g++ -o out template.cpp
 	./out

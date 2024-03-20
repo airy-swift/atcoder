@@ -1,16 +1,6 @@
-// ここは競プロではサボりがちです
 #include <iostream>
 using namespace std;
 
-// デバッグ用マクロです。詳しくは https://blog.naskya.net/post/0002/
-#ifdef LOCAL
-#include <debug_print.hpp>
-#define debug(...) debug_print::multi_print(#__VA_ARGS__, __VA_ARGS__)
-#else
-#define debug(...) (static_cast<void>(0))
-#endif
-
-// 節操ないですが、競プロでは便利です。
 using ll = long long;
 using vi = vector<int>;
 using vl = vector<long long>;
